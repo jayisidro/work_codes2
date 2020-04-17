@@ -1,6 +1,6 @@
 #add tagging to items based on 1st number
 
-#get first number and store it ti a variable
+#get first number and store it to a variable
 first_number = df['Document Number'].str[:1].astype(int)
 
 #tagging using lambda
